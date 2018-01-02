@@ -1,0 +1,10 @@
+﻿  Main.cpp
+f:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\optional(15): fatal error C1189: #error:  class template optional is only available with C++17.
+  Injection.cpp
+f:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\optional(15): fatal error C1189: #error:  class template optional is only available with C++17.
+  Encryption.cpp
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\x-elite client\encryption.cpp(66): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+  base64.cpp
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\includes\common\encryption\base64.cpp(97): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\includes\common\encryption\base64.cpp(114): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Generating Code...

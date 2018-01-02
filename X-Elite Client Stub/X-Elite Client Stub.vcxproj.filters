@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pregen">
+      <UniqueIdentifier>{0a807353-d9c6-471c-b4d7-109b5ba09af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{ec4abb72-3994-4674-bc3b-99755061ac5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Encrpytion">
+      <UniqueIdentifier>{587e12d2-8777-422a-a3c6-f07a077011d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Encrpytion\AES">
+      <UniqueIdentifier>{40a366c5-c6cf-48a6-99a7-12b49da9fe16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Winsock Stuff">
+      <UniqueIdentifier>{21c481c5-f539-4030-920b-b030d2d50078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\HWID">
+      <UniqueIdentifier>{0a7fed1c-d4b4-4bbc-97dc-15d6fd37bbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Encrpytion\Base 64">
+      <UniqueIdentifier>{13dd7a41-5106-4b62-b191-6f5a6b59ab6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Encrpytion\Custom">
+      <UniqueIdentifier>{2eae2b7f-7280-422d-bd54-3a7e778f1113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Injection">
+      <UniqueIdentifier>{89b3a49a-32fe-4d53-8f0b-08d6936072b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{eb99a5c3-3934-47ab-b071-487c679d4842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Anti Debug">
+      <UniqueIdentifier>{0e4b66f8-894c-4a1c-b905-dc83d29d7ef8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pregen</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Pregen</Filter>
+    </ClInclude>
+    <ClInclude Include="Stub.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Security\Encrpytion\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="AESTrans.h">
+      <Filter>Winsock Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="HWID.h">
+      <Filter>Security\HWID</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Security\Encrpytion\Base 64</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFunc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Injection.h">
+      <Filter>Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom.h">
+      <Filter>Security\Encrpytion\Custom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="X-Elite Client Stub.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pregen</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Pregen</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>Security\Encrpytion\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="AES Trans.cpp">
+      <Filter>Winsock Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="HWID.cpp">
+      <Filter>Security\HWID</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Security\Encrpytion\Base 64</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscFunc.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Injection.cpp">
+      <Filter>Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom.cpp">
+      <Filter>Security\Encrpytion\Custom</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

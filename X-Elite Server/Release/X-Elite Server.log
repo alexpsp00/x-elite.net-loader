@@ -1,0 +1,21 @@
+﻿  AES.cpp
+  AESTrans.cpp
+  Base64.cpp
+Base64.cpp(97): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+Base64.cpp(114): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Custom.cpp
+Custom.cpp(66): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+  Misc.cpp
+Misc.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ServMain.cpp
+F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\atlmfc\include\atlcore.h(685): warning C4191: 'reinterpret_cast': unsafe conversion from 'FARPROC' to 'BOOL (__stdcall *)(DWORD)'
+          Calling this function through the result pointer may cause your program to fail
+ServMain.cpp(69): warning C4474: 'printf' : too many arguments passed for format string
+  ServMain.cpp(69): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+ServMain.cpp(90): warning C4101: 'Username': unreferenced local variable
+ServMain.cpp(89): warning C4101: 'buff': unreferenced local variable
+  Generating code
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\x-elite server\aestrans.cpp(11): warning C4715: 'send_encrypted': not all control paths return a value
+  All 1128 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  X-Elite Server.vcxproj -> C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\X-Elite Server.exe

@@ -1,0 +1,11 @@
+﻿  base64.cpp
+..\Includes\Common\Encryption\base64.cpp(97): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+..\Includes\Common\Encryption\base64.cpp(114): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Encryption.cpp
+Encryption.cpp(66): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+  Main.cpp
+     Creating library C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\X-Elite Client.lib and object C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\X-Elite Client.exp
+  Generating code
+  All 5010 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  X-Elite Client.vcxproj -> C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\X-Elite Client.exe

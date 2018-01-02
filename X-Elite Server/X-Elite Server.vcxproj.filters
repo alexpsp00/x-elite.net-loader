@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{9c5f3171-8a9f-47c8-b688-b3a85c4b3595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{fe636ea1-1090-43e2-a2b0-456753b2117e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrpytion">
+      <UniqueIdentifier>{d64bb46f-1142-49d6-b7f3-81a3089442fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrpytion\AES">
+      <UniqueIdentifier>{47a0bad3-0ea1-42aa-b461-0c26020e27c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrpytion\AES\AES Coms">
+      <UniqueIdentifier>{ec8c9ff4-67f5-4ac1-9b24-af37d4420141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrpytion\Base64">
+      <UniqueIdentifier>{42673af9-d6bc-4565-81b7-c056c709ff32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrpytion\Custom">
+      <UniqueIdentifier>{9dd0dadd-9793-46ae-a5e7-b5e02b4d940c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>Encrpytion\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="AESTrans.cpp">
+      <Filter>Encrpytion\AES\AES Coms</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Encrpytion\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom.cpp">
+      <Filter>Encrpytion\Custom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Encrpytion\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="AESTrans.h">
+      <Filter>Encrpytion\AES\AES Coms</Filter>
+    </ClInclude>
+    <ClInclude Include="POST.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Encrpytion\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom.h">
+      <Filter>Encrpytion\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="FTP.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

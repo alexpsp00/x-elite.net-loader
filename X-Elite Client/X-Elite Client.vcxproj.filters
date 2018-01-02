@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Injection">
+      <UniqueIdentifier>{3a9facc3-810e-4f0d-82fd-18fd67966060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{a6108ef0-7a4a-4f9f-9f9e-66242bf21a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption\Base64">
+      <UniqueIdentifier>{65f21c23-6827-4287-bcf7-184094ace7a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Injection.cpp">
+      <Filter>Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Common\Encryption\base64.cpp">
+      <Filter>Encryption\Base64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Injection.h">
+      <Filter>Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Common\Encryption\base64.h">
+      <Filter>Encryption\Base64</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

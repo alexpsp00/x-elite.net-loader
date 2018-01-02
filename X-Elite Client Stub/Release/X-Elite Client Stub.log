@@ -1,0 +1,29 @@
+﻿  stdafx.cpp
+  AES Trans.cpp
+  AES.cpp
+  Base64.cpp
+Base64.cpp(97): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+Base64.cpp(114): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Custom.cpp
+Custom.cpp(66): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+  HWID.cpp
+HWID.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  Injection.cpp
+Injection.cpp(26): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  MiscFunc.cpp
+  X-Elite Client Stub.cpp
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\includes\blackbone-master\contrib\asmjit\base\../base/runtime.h(231): warning C4242: '=': conversion from 'uint32_t' to 'uint8_t', possible loss of data
+F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\atlmfc\include\atlcore.h(685): warning C4191: 'reinterpret_cast': unsafe conversion from 'FARPROC' to 'BOOL (__stdcall *)(DWORD)'
+          Calling this function through the result pointer may cause your program to fail
+C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Includes\Common\Xor.h(152): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1467): note: see declaration of 'vsprintf'
+X-Elite Client Stub.cpp(29): warning C4101: 'HWID': unreferenced local variable
+X-Elite Client Stub.cpp(36): warning C4101: 'client': unreferenced local variable
+  dllmain.cpp
+     Creating library C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\input.lib and object C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\input.exp
+  Generating code
+c:\users\slyth\documents\visual studio 2017\projects\x-elite client\x-elite client stub\miscfunc.cpp(22): warning C4715: 'readFile': not all control paths return a value
+  All 5778 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  X-Elite Client Stub.vcxproj -> C:\Users\slyth\Documents\Visual Studio 2017\Projects\X-Elite Client\Release\input.dll
